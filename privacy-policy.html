@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Number Shooter — Gizlilik Politikası / Privacy Policy</title>
+<style>
+  :root {
+    --bg: #f6f7fb;
+    --card: #ffffff;
+    --ink: #1c2230;
+    --muted: #5b6472;
+    --line: #e4e7ee;
+    --accent: #2b6cb0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1420;
+      --card: #171d2b;
+      --ink: #e7ebf3;
+      --muted: #9aa4b6;
+      --line: #2a3242;
+      --accent: #7cb3f0;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 780px; margin: 0 auto; padding: 28px 20px 64px; }
+  header {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 24px 26px;
+    margin-bottom: 26px;
+  }
+  h1 { font-size: 1.5rem; margin: 0 0 6px; }
+  .sub { color: var(--muted); font-size: 0.95rem; margin: 0; }
+  .lang { margin-top: 14px; font-size: 0.9rem; }
+  .lang a { color: var(--accent); text-decoration: none; font-weight: 600; }
+  .lang a:hover { text-decoration: underline; }
+  section {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 8px 26px 20px;
+    margin-bottom: 22px;
+  }
+  h2 { font-size: 1.2rem; margin: 22px 0 6px; }
+  h3 { font-size: 1.02rem; margin: 18px 0 4px; }
+  p, li { color: var(--ink); }
+  a { color: var(--accent); word-break: break-word; }
+  .muted { color: var(--muted); }
+  ul { padding-left: 20px; }
+  li { margin: 4px 0; }
+  hr { border: none; border-top: 1px solid var(--line); margin: 34px 0; }
+  code { background: rgba(127,127,127,.14); padding: 1px 6px; border-radius: 6px; font-size: 0.92em; }
+  footer { color: var(--muted); font-size: 0.85rem; text-align: center; margin-top: 30px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Number Shooter — Gizlilik Politikası</h1>
+    <p class="sub">Privacy Policy · Son güncelleme / Last updated: 25 Ağustos 2026</p>
+    <p class="lang"><a href="#tr">Türkçe</a> &nbsp;·&nbsp; <a href="#en">English</a></p>
+  </header>
+
+  <!-- ============================ TÜRKÇE ============================ -->
+  <section id="tr">
+    <h2>Genel Bakış</h2>
+    <p>Bu gizlilik politikası, <strong>Wueex</strong> (“biz”, “bize”) tarafından geliştirilen
+    <strong>Number Shooter</strong> mobil oyununu (“Uygulama”) kapsar. Uygulamayı kullanarak bu
+    politikada açıklanan uygulamaları kabul etmiş olursunuz. Kişisel verilerinize saygı duyuyoruz
+    ve yalnızca aşağıda belirtilen verileri, belirtilen amaçlarla işliyoruz.</p>
+
+    <h2>Topladığımız / İşlediğimiz Veriler</h2>
+
+    <h3>1. Reklam verileri (Google AdMob)</h3>
+    <p>Uygulama, reklam göstermek için (ödüllü reklamlar dahil) Google AdMob kullanır. AdMob;
+    reklam kimliği (Advertising ID / App Set ID), IP adresi, genel cihaz bilgileri ve reklam
+    etkileşimleri gibi verileri toplayabilir. Bu veriler reklamların gösterilmesi, ölçülmesi ve
+    (izin verildiğinde) kişiselleştirilmesi için kullanılır. Reklam kişiselleştirmesini cihaz
+    ayarlarınızdan yönetebilir veya sıfırlayabilirsiniz. Bu işleme Google’ın gizlilik politikasına
+    tabidir.</p>
+
+    <h3>2. Google Play Oyun Hizmetleri</h3>
+    <p>Google Play Oyun Hizmetleri ile giriş yapmayı seçerseniz, kimliğinizi belirlemek için
+    <strong>oyuncu kimliğinizi (Player ID)</strong> ve <strong>görünen adınızı (oyuncu takma adı)</strong>
+    alırız. Bunları şu amaçlarla kullanırız:</p>
+    <ul>
+      <li>Liderlik tablosunda kimliğinizi göstermek,</li>
+      <li>Oyun ilerlemenizi (coin, geliştirmeler, skor, özelleştirmeler) Google hesabınıza
+      <strong>bulut kaydı (Kaydedilmiş Oyunlar)</strong> olarak yedeklemek; böylece cihaz
+      değiştirdiğinizde ilerlemeniz geri gelir.</li>
+    </ul>
+    <p>Giriş yapmak isteğe bağlıdır; giriş yapmazsanız oyun yerel olarak çalışmaya devam eder.</p>
+
+    <h3>3. Çevrimiçi liderlik tablosu (Supabase)</h3>
+    <p>Küresel sıralamayı göstermek için, liderlik veritabanımızda (barındırıcı: Supabase) şunları
+    saklarız: <strong>takma adınız</strong>, <strong>en yüksek skorunuz</strong> ve Play Oyun
+    Hizmetleri kimliğinizden türetilmiş <strong>takma (pseudonim) bir kimlik (UUID)</strong>.
+    E-posta adresinizi veya gerçek adınızı saklamayız (takma adınız olarak gerçek adınızı yazmadığınız
+    sürece). Bu veriler yalnızca liderlik tablosunu işletmek için kullanılır.</p>
+
+    <h3>4. Yerel (cihaz üstü) veriler</h3>
+    <p>Oyun ilerlemesi, ayarlar ve özelleştirme tercihleri cihazınızda yerel olarak saklanır. Giriş
+    yaptıysanız bu veriler ayrıca Google hesabınızın bulutuna (Kaydedilmiş Oyunlar) yedeklenir.</p>
+
+    <h2>Toplamadığımız Veriler</h2>
+    <p>E-posta adresinizi, telefon numaranızı, rehberinizi, hassas (kesin) konumunuzu, fotoğraf ya da
+    dosyalarınızı toplamayız veya bunlara erişmeyiz.</p>
+
+    <h2>Verilerin Paylaşıldığı Üçüncü Taraflar</h2>
+    <p>Verileri satmıyoruz. Yukarıda açıklanan hizmetleri sağlamak için aşağıdaki hizmet
+    sağlayıcılarla çalışıyoruz:</p>
+    <ul>
+      <li><strong>Google</strong> (AdMob reklamları ve Play Oyun Hizmetleri) —
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>,
+      <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Google’ın veri kullanımı</a>.</li>
+      <li><strong>Supabase</strong> (liderlik verisinin barındırılması) —
+      <a href="https://supabase.com/privacy" target="_blank" rel="noopener">supabase.com/privacy</a>.</li>
+    </ul>
+
+    <h2>Çocukların Gizliliği</h2>
+    <p>Uygulama 13 yaşın altındaki çocuklara yönelik değildir ve bilerek çocuklardan kişisel veri
+    toplamayız. Bir çocuğun bize veri sağladığını düşünüyorsanız lütfen bizimle iletişime geçin;
+    ilgili veriyi sileriz.</p>
+
+    <h2>Veri Saklama ve Haklarınız</h2>
+    <p>Liderlik kaydınıza erişmek veya silinmesini istemek için aşağıdaki e-posta adresinden bize
+    ulaşabilirsiniz. Cihazınızdaki yerel verileri, uygulamanın verilerini temizleyerek ya da
+    uygulamayı kaldırarak silebilirsiniz. Reklam kimliğinizi cihaz ayarlarınızdan sıfırlayabilir veya
+    kişiselleştirilmiş reklamları kapatabilirsiniz.</p>
+
+    <h2>Güvenlik</h2>
+    <p>Verilerinizi korumak için makul teknik ve idari önlemler alırız. Ancak hiçbir internet
+    aktarımı ya da elektronik saklama yöntemi %100 güvenli değildir; mutlak güvenliği garanti edemeyiz.</p>
+
+    <h2>Bu Politikadaki Değişiklikler</h2>
+    <p>Bu politikayı zaman zaman güncelleyebiliriz. Güncellenmiş sürüm, sayfanın en üstündeki
+    “Son güncelleme” tarihiyle bu adreste yayımlanır.</p>
+
+    <h2>İletişim</h2>
+    <p>Bu gizlilik politikası veya verileriniz hakkında sorularınız için:
+    <br><strong>E-posta:</strong> <code>[buraya-iletişim-eposta-adresini-yaz]</code></p>
+  </section>
+
+  <hr>
+
+  <!-- ============================ ENGLISH ============================ -->
+  <section id="en">
+    <h2>Overview</h2>
+    <p>This Privacy Policy applies to the mobile game <strong>Number Shooter</strong> (the “App”),
+    developed by <strong>Wueex</strong> (“we”, “us”). By using the App, you agree to the practices
+    described here. We respect your privacy and process only the data described below, for the stated
+    purposes.</p>
+
+    <h2>Data We Collect / Process</h2>
+
+    <h3>1. Advertising data (Google AdMob)</h3>
+    <p>The App uses Google AdMob to show ads (including rewarded ads). AdMob may collect data such as
+    the advertising identifier (Advertising ID / App Set ID), IP address, general device information,
+    and ad interactions. This data is used to serve, measure, and (where permitted) personalize ads.
+    You can manage or reset ad personalization in your device settings. This processing is subject to
+    Google’s privacy policy.</p>
+
+    <h3>2. Google Play Games Services</h3>
+    <p>If you choose to sign in with Google Play Games Services, we receive your
+    <strong>Player ID</strong> and <strong>display name (gamer tag)</strong> to identify you. We use
+    these to:</p>
+    <ul>
+      <li>Show your identity on the leaderboard, and</li>
+      <li>Back up your game progress (coins, upgrades, score, customizations) to your Google account
+      as a <strong>cloud save (Saved Games)</strong>, so your progress follows you across devices.</li>
+    </ul>
+    <p>Signing in is optional; without it, the game continues to work locally.</p>
+
+    <h3>3. Online leaderboard (Supabase)</h3>
+    <p>To show global rankings, we store in our leaderboard database (hosted by Supabase): your
+    <strong>display name</strong>, your <strong>high score</strong>, and a
+    <strong>pseudonymous identifier (a UUID)</strong> derived from your Play Games Player ID. We do
+    not store your email address or real name (unless you enter your real name as your display name).
+    This data is used solely to operate the leaderboard.</p>
+
+    <h3>4. Local (on-device) data</h3>
+    <p>Game progress, settings, and customization choices are stored locally on your device. If you
+    are signed in, this data is also backed up to your Google account cloud (Saved Games).</p>
+
+    <h2>Data We Do Not Collect</h2>
+    <p>We do not collect or access your email address, phone number, contacts, precise location,
+    photos, or files.</p>
+
+    <h2>Third Parties We Share Data With</h2>
+    <p>We do not sell your data. We work with the following service providers to deliver the features
+    described above:</p>
+    <ul>
+      <li><strong>Google</strong> (AdMob ads and Play Games Services) —
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>,
+      <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">how Google uses data</a>.</li>
+      <li><strong>Supabase</strong> (hosting of leaderboard data) —
+      <a href="https://supabase.com/privacy" target="_blank" rel="noopener">supabase.com/privacy</a>.</li>
+    </ul>
+
+    <h2>Children’s Privacy</h2>
+    <p>The App is not directed to children under 13, and we do not knowingly collect personal data
+    from children. If you believe a child has provided us with data, please contact us and we will
+    delete it.</p>
+
+    <h2>Data Retention and Your Rights</h2>
+    <p>To access or request deletion of your leaderboard entry, contact us at the email below. You can
+    delete local data on your device by clearing the app’s data or uninstalling the App. You can reset
+    your advertising identifier or opt out of personalized ads in your device settings.</p>
+
+    <h2>Security</h2>
+    <p>We take reasonable technical and organizational measures to protect your data. However, no
+    method of transmission or electronic storage is 100% secure, and we cannot guarantee absolute
+    security.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>We may update this policy from time to time. The updated version will be posted at this address
+    with a new “Last updated” date at the top of the page.</p>
+
+    <h2>Contact</h2>
+    <p>For questions about this Privacy Policy or your data:
+    <br><strong>Email:</strong> <code>[put-your-contact-email-here]</code></p>
+  </section>
+
+  <footer>© 2026 Wueex · Number Shooter</footer>
+
+</div>
+</body>
+</html>
